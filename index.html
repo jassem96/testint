@@ -23,7 +23,6 @@
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
     </script>
-
     <div id="unity-container" class="unity-desktop">
         <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
         <div id="unity-loading-bar">
@@ -73,11 +72,11 @@
         }
 
         var buildUrl = "Build";
-        var loaderUrl = buildUrl + "/testint.loader.js";
+        var loaderUrl = buildUrl + "/testint0.loader.js";
         var config = {
-            dataUrl: buildUrl + "/testint.data",
-            frameworkUrl: buildUrl + "/testint.framework.js",
-            codeUrl: buildUrl + "/testint.wasm",
+            dataUrl: buildUrl + "/testint0.data",
+            frameworkUrl: buildUrl + "/testint0.framework.js",
+            codeUrl: buildUrl + "/testint0.wasm",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
             productName: "testint",
