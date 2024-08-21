@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | testint</title>
+    <title>Unity WebGL Player | Interaktion_Verschiebung</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
@@ -23,6 +23,7 @@
         // Initialize Firebase
         firebase.initializeApp(firebaseConfig);
     </script>
+
     <div id="unity-container" class="unity-desktop">
         <canvas id="unity-canvas" width=960 height=600 tabindex="-1"></canvas>
         <div id="unity-loading-bar">
@@ -35,7 +36,7 @@
         <div id="unity-footer">
             <div id="unity-webgl-logo"></div>
             <div id="unity-fullscreen-button"></div>
-            <div id="unity-build-title">testint</div>
+            <div id="unity-build-title">Interaktion_Verschiebung</div>
         </div>
     </div>
     <script>
@@ -72,14 +73,14 @@
         }
 
         var buildUrl = "Build";
-        var loaderUrl = buildUrl + "/testint0.loader.js";
+        var loaderUrl = buildUrl + "/neubulid.loader.js";
         var config = {
-            dataUrl: buildUrl + "/testint0.data",
-            frameworkUrl: buildUrl + "/testint0.framework.js",
-            codeUrl: buildUrl + "/testint0.wasm",
+            dataUrl: buildUrl + "/neubulid.data",
+            frameworkUrl: buildUrl + "/neubulid.framework.js",
+            codeUrl: buildUrl + "/neubulid.wasm",
             streamingAssetsUrl: "StreamingAssets",
             companyName: "DefaultCompany",
-            productName: "testint",
+            productName: "Interaktion_Verschiebung",
             productVersion: "0.1",
             showBanner: unityShowBanner,
         };
